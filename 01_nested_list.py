@@ -10,5 +10,7 @@ def will_it_run():
 
     assert field == expected
 
+    print("🎉🎉🎉 It all ran!!! 🎉🎉🎉")
+
 if __name__ == "__main__":
     will_it_run()

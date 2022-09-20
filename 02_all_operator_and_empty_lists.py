@@ -11,5 +11,7 @@ def will_it_run():
     assert all([[]]) is False
     assert all([[[]]]) is True
 
+    print("🎉🎉🎉 It all ran!!! 🎉🎉🎉")
+
 if __name__ == "__main__":
     will_it_run()
