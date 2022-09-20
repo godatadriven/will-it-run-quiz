@@ -18,6 +18,7 @@ def mutating_the_immutable():
 
     assert another_tuple == ([1, 2], [3, 4], [5, 6])
 
+    print("🎉🎉🎉 It all ran!!! 🎉🎉🎉")
 
 if __name__ == "__main__":
     mutating_the_immutable()
