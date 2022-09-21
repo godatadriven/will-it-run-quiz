@@ -1,6 +1,5 @@
-# from rich.traceback import install
-
-# install(show_locals=True)
+from rich.traceback import install
+install(show_locals=True)
 
 
 def will_it_run():
