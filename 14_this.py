@@ -9,9 +9,8 @@ def will_it_run():
     love = this
 
     assert this is love
-    assert love is True
-    assert love is False
-    assert love is not True or False
+    # assert love is True
+    # assert love is False
     assert love is not True or False
     assert love is love
 
