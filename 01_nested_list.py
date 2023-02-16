@@ -6,7 +6,11 @@ def will_it_run():
     field = [row]*3 # field of three rows
     field[0][0] = 'X'  # fill top left row with an X
 
-    expected = [["X", "", ""],["","",""],["","",""]]
+    expected = [
+        ["X", "", ""],
+        ["", "", ""],
+        ["", "", ""]
+        ]
 
     assert field == expected
 
